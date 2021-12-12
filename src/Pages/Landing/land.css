@@ -1,0 +1,10 @@
+.overview{
+  background-image: url('../../Icons/overview.svg');
+  background-position: center;
+}
+.sup{
+  width: 33.75rem;
+}
+.herotext{
+  width: 28rem;
+}
