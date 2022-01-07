@@ -7,11 +7,11 @@ import cost from '../../Icons/cost.png'
 import delivery from '../../Icons/delivery.png'
 import './land.scss'
 
-const LandingPage = () => {
+const LandingPage = () => { 
   return (
     <div className = 'land '>
       <Header />
-      <main className='hero'>
+      <section className='hero'>
         <div className='heroText'>
           Track your <span>expenses,</span> <br />
           Budget your <span>incomes</span> and <span>save money.</span>
@@ -19,11 +19,11 @@ const LandingPage = () => {
           <button className = 'btn'> Get started </button>
         </div>
         <img src={ hero } alt='hero' />
-      </main>
+      </section>
       <div className = 'prod mt-24'>
         <img src={product} alt = 'product' className = 'mt-24'/>
       </div>
-      <main className='overview mt-24 flex  text-blue-900'>
+      <section className='overview mt-24 flex  text-blue-900'>
         <img src={support} alt='overviewImg' className = 'sup' style = {{width: '31rem'}} />
         <div className='herotext text-5xl leading-tight text-blue-800 font-bold mt-16 '>
           <span className='block font-light text-gray-400 capitalize text-xl pt-1 pb-4'>always online</span>
@@ -32,8 +32,8 @@ const LandingPage = () => {
             Amet ad duis ea officia irure ipsum irure dolore dolore nostrud. Est aliquip duis consequat nulla sit do. Adipisicing
           </span>
         </div>
-      </main>
-      <main className='overview mt-36 flex justify-around items-center text-blue-900'>
+      </section>
+      <section className='overview mt-36 flex justify-around items-center text-blue-900'>
         <div className='herotext text-5xl leading-tight text-blue-800 font-bold mt-16 '>
           <span className='block font-light text-gray-400 capitalize text-xl pt-1 pb-4'>free some cost</span>
             <span className='textSpan' >Save</span> cost for you and family
@@ -43,8 +43,8 @@ const LandingPage = () => {
           </span>
         </div>
         <img src={cost} alt='overviewImg' className = 'sup' style = {{width: '31rem'}} />
-      </main>
-      <main className='overview mt-36 flex justify-around items-center text-blue-900'>
+      </section>
+      <section className='overview mt-36 flex justify-around items-center text-blue-900'>
         <img src={delivery} alt='overviewImg' className = 'sup' style = {{width: '31rem'}} />
         <div className='herotext text-5xl leading-tight text-blue-800 font-bold mt-16 '>
           <span className='block font-light text-gray-400 capitalize text-xl pt-1 pb-4'>Use anytime </span>
@@ -53,7 +53,15 @@ const LandingPage = () => {
             Amet ad duis ea officia irure ipsum irure dolore dolore nostrud. Est aliquip duis consequat nulla sit do. Adipisicing
           </span>
         </div>
-      </main>
+      </section>
+      <section className='m-hero'>
+        <div className='mini-hero'>
+          <p> The product we work with. </p>
+          <div className='mhero-sub'>
+            Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
